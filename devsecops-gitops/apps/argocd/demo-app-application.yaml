@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ainaralijaona/devsecops-gitops.git
     targetRevision: HEAD
-    path: apps/demo-app
+    path: devsecops-gitops/apps/demo-app
   destination:
     server: https://kubernetes.default.svc
     namespace: demo
