@@ -18,3 +18,8 @@ spec:
           image: nginx:1.25.5
           ports:
             - containerPort: 80
+      spec:
+    template:
+      spec:
+        securityContext:
+          runAsNonRoot: true
